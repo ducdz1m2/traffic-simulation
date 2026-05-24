@@ -1,0 +1,12 @@
+{
+  "dataset": "US Congestion",
+  "rows": 2000000,
+  "columns": 30,
+  "severity_distribution": {
+    "0": 484824,
+    "1": 933976,
+    "2": 525011,
+    "3": 56180,
+    "4": 9
+  }
+}

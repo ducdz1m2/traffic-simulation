@@ -1,0 +1,13 @@
+{
+  "dataset": "UK DfT Road Casualty Statistics (1979-latest)",
+  "collisions": 9015100,
+  "vehicles": 16099146,
+  "casualties": 11974250,
+  "severity_distribution": {
+    "Fatal": 144722,
+    "Serious": 1651365,
+    "Slight": 7219013
+  },
+  "fatal_rate_pct": 1.61,
+  "serious_rate_pct": 18.32
+}

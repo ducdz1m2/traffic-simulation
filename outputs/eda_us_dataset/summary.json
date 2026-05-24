@@ -1,0 +1,68 @@
+{
+  "dataset": "US Accidents (2016-2023)",
+  "rows": 7728394,
+  "columns": 46,
+  "severity_distribution": [
+    {
+      "Severity": 1,
+      "Count": 67366,
+      "Percent": 0.8716688098458748
+    },
+    {
+      "Severity": 2,
+      "Count": 6156981,
+      "Percent": 79.6670174941909
+    },
+    {
+      "Severity": 3,
+      "Count": 1299337,
+      "Percent": 16.81250981769304
+    },
+    {
+      "Severity": 4,
+      "Count": 204710,
+      "Percent": 2.6488038782701815
+    }
+  ],
+  "correlation_with_severity": {
+    "End_Lng": 0.09446115159387503,
+    "End_Lat": 0.0861465857076106,
+    "Start_Lat": 0.07151937565555581,
+    "Wind_Chill(F)": 0.059318793927571126,
+    "Start_Lng": 0.05140882194345676
+  },
+  "high_missing_cols": [
+    "End_Lat",
+    "End_Lng",
+    "Precipitation",
+    "Wind_Chill"
+  ],
+  "mean_severity_weekday": 2.204,
+  "mean_severity_weekend": 2.275,
+  "mean_severity_day": 2.211,
+  "mean_severity_night": 2.218,
+  "duration_median_min": 62.24166666666667,
+  "source_distribution": {
+    "Source1": 4325632,
+    "Source2": 3305373,
+    "Source3": 97389
+  },
+  "road_type_distribution": {
+    "High-speed road": {
+      "count": 32057,
+      "pct": 32.1
+    },
+    "Local road": {
+      "count": 42619,
+      "pct": 42.6
+    },
+    "Other": {
+      "count": 25179,
+      "pct": 25.2
+    },
+    "Unknown": {
+      "count": 145,
+      "pct": 0.1
+    }
+  }
+}
