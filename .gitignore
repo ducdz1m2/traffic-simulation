@@ -1,6 +1,42 @@
-demo.ipynb
-US_Accidents_March23.csv
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.ipython/
 
-# Data
+# Data (large CSV / pkl / archives)
 data/*
 !data/data.txt
+paper/DAP/data/
+*.7z
+*.tar.gz
+*.zip
+*.csv
+!requirements.csv
+
+# Datasets/saved outputs
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.npy
+
+# Model logs & outputs
+lightning_logs/
+outputs/
+outputs_fcm/
+outputs_test/
+outputs_test_embeddings/
+saved_models/
+.pt_tmp/
+
+# Third-party reference paper code (has its own repo: mhsamavatian/DAP)
+paper/DAP/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+*.ipynb_checkpoints*
